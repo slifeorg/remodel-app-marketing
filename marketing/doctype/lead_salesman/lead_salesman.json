@@ -1,0 +1,32 @@
+{
+ "actions": [],
+ "creation": "2024-02-16 20:46:54.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "salesman"
+ ],
+ "fields": [
+  {
+   "fieldname": "salesman",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Salesman",
+   "options": "User",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-16 20:46:54.000000",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Lead Salesman",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

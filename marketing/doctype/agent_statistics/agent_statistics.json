@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-16 22:19:55.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "finish_pending_leads_count",
+  "cold_call_leads_today_count",
+  "retargeting_leads_today",
+  "total_leads_per_agent",
+  "total_leads_today",
+  "total_lead_count",
+  "leads_days_count",
+  "leads_per_day",
+  "total_qc_count",
+  "qc_days_count",
+  "qc_per_day",
+  "training_pending_signatures_count",
+  "rating_url",
+  "rating",
+  "average_qc_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "finish_pending_leads_count",
+   "fieldtype": "Int",
+   "label": "Finish Pending Leads Count"
+  },
+  {
+   "fieldname": "cold_call_leads_today_count",
+   "fieldtype": "Int",
+   "label": "Cold Call Leads Today Count"
+  },
+  {
+   "fieldname": "retargeting_leads_today",
+   "fieldtype": "Int",
+   "label": "Retargeting Leads Today"
+  },
+  {
+   "fieldname": "total_leads_per_agent",
+   "fieldtype": "Int",
+   "label": "Total Leads per Agent"
+  },
+  {
+   "fieldname": "total_leads_today",
+   "fieldtype": "Int",
+   "label": "Total Leads Today"
+  },
+  {
+   "fieldname": "total_lead_count",
+   "fieldtype": "Int",
+   "label": "Total Lead Count"
+  },
+  {
+   "fieldname": "leads_days_count",
+   "fieldtype": "Int",
+   "label": "Leads Days Count"
+  },
+  {
+   "fieldname": "leads_per_day",
+   "fieldtype": "Float",
+   "label": "Leads per Day"
+  },
+  {
+   "fieldname": "total_qc_count",
+   "fieldtype": "Int",
+   "label": "Total QC Count"
+  },
+  {
+   "fieldname": "qc_days_count",
+   "fieldtype": "Int",
+   "label": "QC Days Count"
+  },
+  {
+   "fieldname": "qc_per_day",
+   "fieldtype": "Float",
+   "label": "QC per Day"
+  },
+  {
+   "fieldname": "training_pending_signatures_count",
+   "fieldtype": "Int",
+   "label": "Training Pending Signatures Count"
+  },
+  {
+   "fieldname": "rating_url",
+   "fieldtype": "Data",
+   "label": "Rating URL"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Float",
+   "label": "Rating"
+  },
+  {
+   "fieldname": "average_qc_time",
+   "fieldtype": "Float",
+   "label": "Average QC Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-16 22:19:55.000000",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Agent Statistics",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

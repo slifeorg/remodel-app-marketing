@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "creation": "2024-02-16 22:21:36.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "permission_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "permission_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Permission Type",
+   "options": "Admin\nCall Center Manager\nHR\nQuality Control\nConfirmation\nAgent Training\nSubmit New Leads\nChange Agent of a Lead\nChange Source of a Lead\nView Appointment History"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-02-16 22:21:36.000000",
+ "modified_by": "Administrator",
+ "module": "Marketing",
+ "name": "Agent Permission",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

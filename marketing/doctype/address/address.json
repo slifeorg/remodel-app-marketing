@@ -1,0 +1,37 @@
+{
+  "name": "Address",
+  "doctype": "DocType",
+  "module": "Marketing",
+  "fields": [
+    {
+      "fieldname": "full_address",
+      "label": "Full Address",
+      "fieldtype": "Text Editor"
+    },
+    {
+      "fieldname": "validated_address",
+      "label": "Validated Address",
+      "fieldtype": "Text Editor"
+    },
+    {
+      "fieldname": "geocoding_data",
+      "label": "Geocoding Data",
+      "fieldtype": "Long Text"
+    },
+    {
+      "fieldname": "lead",
+      "label": "Lead",
+      "fieldtype": "Link",
+      "options": "Lead"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

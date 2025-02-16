@@ -1,0 +1,32 @@
+{
+  "name": "Workiz Integration",
+  "doctype": "DocType",
+  "module": "Marketing",
+  "fields": [
+    {
+      "fieldname": "workiz_uuid",
+      "label": "Workiz UUID",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "api_response",
+      "label": "API Response",
+      "fieldtype": "Long Text"
+    },
+    {
+      "fieldname": "lead",
+      "label": "Lead",
+      "fieldtype": "Link",
+      "options": "Lead"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    }
+  ]
+}

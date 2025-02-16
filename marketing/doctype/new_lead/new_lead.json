@@ -1,0 +1,41 @@
+{
+    "name": "NewLead",
+    "doctype": "DocType",
+    "is_submittable": 1,
+    "fields": [
+      {
+        "fieldname": "lead_id",
+        "label": "Lead ID",
+        "fieldtype": "Data",
+        "unique": 1,
+        "reqd": 1
+      },
+      {
+        "fieldname": "new_lead_category",
+        "label": "New Lead Category",
+        "fieldtype": "Select",
+        "options": "\nCustomer Info\nSummary\nQC Submit"
+      },
+      {
+        "fieldname": "lead_rating",
+        "label": "Lead Rating",
+        "fieldtype": "Select",
+        "options": "\n0 - Salesman under 6 months only\n1 - Salesman under 6 months only\n5 - Gold Star"
+      },
+      {
+        "fieldname": "workiz_uuid",
+        "label": "Workiz UUID",
+        "fieldtype": "Link",
+        "options": "Workiz Integration"
+      }
+    ],
+    "permissions": [
+      {
+        "role": "System Manager",
+        "read": 1,
+        "write": 1,
+        "create": 1,
+        "delete": 1
+      }
+    ]
+  }
